@@ -38,14 +38,19 @@ a {
     text-decoration: none;
 }
 /* Head */
-.logo-studio:hover,
+
 .nav-element:hover,
 /* FooTer */
 .adress-place:hover,
-.adress:hover,
-.footer-logo-studio:hover { 
+.adress:hover { 
     color: var(--link-active);
 } 
+
+.logo:hover .logo__studio , .logo:focus .logo__studio{
+color: var(--link-active);
+}
+
+
 
 
 .contacts .contact:hover,.contacts .contact:focus {
@@ -57,13 +62,11 @@ a {
 
 
 /* Head */
-.logo-studio:focus,
 .nav-element:focus,
-
 /* FooTer */
 .adress-place:focus,
 .adress:focus,
-.footer-logo-studio:focus {
+.logo:focus {
 color: var(--link-active);
 }
 
@@ -76,11 +79,14 @@ color: var(--link-active);
 
 
 :root{
-    --logo-web-color:#2196F3;
-    --logo-studio-up:#000000;
-    --logo-studio-lower: #FFFFFF;
+    
+    --logo-color:#2196F3;
+    --logo-studio:#000000;
+    --logo-studio-inverse: #FFFFFF;
+
     --nav-color:#212121;
     --contacts-color:#757575;
+
     --button-text-color:#FFFFFF;
     --button-active-color:#188CE8;
     --button-color:#2196F3;
@@ -145,27 +151,24 @@ align-items:center;
 }
 
 /* --------------LOGO --------------*/
-
-.logo-web {
-
-
+.logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--logo-web-color);
+    color: var(--logo-color);
     margin-right: 93px;
-
-
-
 }
-
-.logo-web__studio {
+.logo__studio {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    color: var(--logo-studio-up);
+    color: var(--logo-studio);
 }
+.logo:hover .logo__studio,
+.logo:focus .logo__studio {
+    color: var(--link-active);
+}
+
 
 .nav-list {
     display: flex;
@@ -822,33 +825,28 @@ min-width:fit-content;
 }
 
 
-.footer-logo-web{
 
 
-font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--logo-web-color);
-
-    margin-bottom: 20px;
+.logo--footer {
+margin-bottom: 20px;
+}
+.logo__studio--inverse{
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+color: var(--logo-studio-inverse);
+}
+.logo:hover .logo__studio--inverse,
+.logo:focus .logo__studio--inverse {
+    color: var(--link-active);
 }
 
-.footer-logo-studio{
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    color: var(--logo-studio-lower);
-}
+
 .footer-addres{
     padding-right: 25px;
 }
 .adress-list{
 display: block;
 margin-bottom: 9px;
-height: 21px;
-    
-    
+height: 21px; 
 }
 .adress-list:last-child{
     margin-bottom: 0;
