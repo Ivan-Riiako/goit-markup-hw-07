@@ -588,7 +588,7 @@ a {
   padding-bottom: 32px;
 }
 
-.contacts .contact {
+.contact {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: -webkit-box;
@@ -607,6 +607,14 @@ a {
   text-decoration: none;
   color: var(--contacts-color);
   fill: var(--contacts-color);
+}
+
+.nav-element:focus,
+.nav-element:hover,
+.contact:hover,
+.contact:focus {
+  color: var(--link-active);
+  fill: var(--link-active);
 }
 
 .icon-maill, .icon-tell {

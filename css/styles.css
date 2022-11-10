@@ -1,5 +1,5 @@
 
-.nav-element:hover,
+
 
 .adress-place:hover,
 .adress:hover { 
@@ -9,13 +9,6 @@ color: var(--link-active);
 
 
 
-
-.contacts .contact:hover,.contacts .contact:focus {
-color: var(--link-active);
-fill: var(--link-active);
-}
-
-.nav-element:focus,
 .adress-place:focus,
 .adress:focus{
 color: var(--link-active);
