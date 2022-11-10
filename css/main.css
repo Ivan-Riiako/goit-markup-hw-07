@@ -925,7 +925,6 @@ a {
   height: 60px;
 }
 
-/* -------------FOOTER-------------- */
 .footer {
   background-color: var(--bg-footer-color);
   padding: 60px 0px;
@@ -987,6 +986,13 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--adress-contact-color);
+}
+
+.adress-place:hover,
+.adress-place:focus,
+.adress:focus,
+.adress:hover {
+  color: var(--link-active);
 }
 
 /* Subscription */
