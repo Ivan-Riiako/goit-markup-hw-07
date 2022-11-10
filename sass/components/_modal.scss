@@ -1,0 +1,233 @@
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 528px;
+    padding: 40px;
+
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 250ms linear;
+}
+
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(1.15);
+}
+
+.close {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    cursor: pointer;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close:focus,
+.close:hover {
+    fill: var(--link-active)
+}
+
+.form-header {
+    display: block;
+
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 12px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 4px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+}
+
+.wraper-field {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.icon-field {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background-size: cover;
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    fill: #212121;
+}
+
+.field {
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 42px;
+    padding-right: 12px;
+
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.textarea {
+    display: block;
+    margin-bottom: 0;
+    resize: none;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+.textarea::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+
+
+
+.field:hover+.icon-field,
+.field:focus+.icon-field {
+
+    fill: var(--link-active);
+}
+
+.field:hover,
+.field:focus {
+    border: 1px solid #2196F3;
+}
+
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.label-checkbox::before {
+
+    content: "";
+    display: block;
+    height: 15px;
+    width: 16px;
+    margin-right: 7px;
+    border-radius: 2px;
+    border: 2px solid #000000;
+    cursor: pointer;
+
+    background-image: url(../images/checkbox.svg);
+    background-repeat: no-repeat;
+    background-size: content;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.imput-checkbox:checked+.label-checkbox::before {
+    background-color: var(--link-active);
+    border: 2px solid var(--link-active);
+
+}
+
+.imput-checkbox:focus+.label-checkbox::before {
+    border: 2px solid var(--link-active);
+}
+
+.label-checkbox {
+    display: flex;
+
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.label-checkbox>a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+
+    color: #2196F3;
+}
+
+.modal-submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 52px;
+    padding-right: 52px;
+
+
+    background-color: var(--button-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-submit:hover,
+.modal-submit:focus {
+    background-color: var(--button-active-color);
+}
