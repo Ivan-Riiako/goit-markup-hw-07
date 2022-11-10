@@ -1,0 +1,51 @@
+/*   ------------Our feature ------------- */
+.features-section {
+    padding-bottom: 0;
+}
+
+.features {
+    display: flex;
+}
+/* feature  card*/
+.feature-card {
+    display: block;
+    width: calc(100%/4);
+
+    margin-left: var(--space-card);
+}
+
+.feature-card:first-child {
+    margin-left: 0;
+}
+
+.bord-feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+
+    margin-bottom: 30px;
+
+    border-radius: 4px;
+    background-color: var(--bg-feature-color);
+}
+
+.feature-list-heading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--feature-list-h);
+}
+
+.feature-list-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--feature-dsk);
+    margin: 0px;
+}
