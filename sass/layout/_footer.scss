@@ -1,7 +1,7 @@
 .footer {
 background-color: var(--bg-footer-color);
 padding: 60px 0px;
-&>.container {
+    &>.container {
         display: flex;
         align-items: baseline;
     }
@@ -21,39 +21,48 @@ padding-right: 25px;
 display: block;
 margin-bottom: 9px;
 height: 21px;
-}
 
-.adress-list:last-child {
-margin-bottom: 0;
+    &:last-child {
+    margin-bottom: 0;
+    }
 }
 
 .adress-place {
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: var(--adress-place-color)
+color: var(--adress-place-color);
+
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--link-active);
+        }
 }
 
 .adress {
-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--adress-contact-color);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+        color: var(--link-active);
+    }
 }
-.adress-place:hover,
-.adress-place:focus,
-.adress:focus,
-.adress:hover {
-color: var(--link-active);
-}
+
+
+
+
+
+
 
 // ===Social links=== //
 .footer-social {

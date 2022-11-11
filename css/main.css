@@ -904,37 +904,35 @@ a {
   margin-bottom: 9px;
   height: 21px;
 }
-
 .adress-list:last-child {
   margin-bottom: 0;
 }
 
 .adress-place {
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--adress-place-color);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.adress-place:hover, .adress-place:focus {
+  color: var(--link-active);
 }
 
 .adress {
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--adress-contact-color);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.adress-place:hover,
-.adress-place:focus,
-.adress:focus,
-.adress:hover {
+.adress:focus, .adress:hover {
   color: var(--link-active);
 }
 
