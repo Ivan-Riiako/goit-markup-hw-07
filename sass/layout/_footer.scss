@@ -56,6 +56,23 @@ color: var(--adress-contact-color);
 .adress:hover {
 color: var(--link-active);
 }
+
+// ===Social links=== //
+.footer-social {
+    margin-left: 70px;
+}
+
+.footer-social>h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
  /* Subscription */
 .subscription {
 width: 100%;
@@ -96,15 +113,14 @@ display: flex;
      padding-bottom: 15px;
      padding-left: 16px;
      padding-right: 16px;
- }
 
- .field-subscription::placeholder {
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 1.25;
-     letter-spacing: 0.03em;
-
-     color: rgba(255, 255, 255, 0.6);
+    &::placeholder {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+        }
  }
 
  .submit-subscription {

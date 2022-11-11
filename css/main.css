@@ -118,18 +118,18 @@ a {
   display: flex;
   margin-top: 16px;
 }
+.footer-social > .social-list {
+  margin: 0;
+}
 
 .social-li {
   margin-left: 10px;
 }
-
 .social-li:first-child {
   margin-left: 0;
 }
 
 .social-li > a {
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -143,39 +143,18 @@ a {
   width: 44px;
   border-radius: 50%;
   fill: var(--icon-color);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.social-li > a:hover,
-.social-li > a:focus {
+.social-li > a:hover, .social-li > a:focus {
   background-color: var(--link-active);
   fill: #fff;
 }
 
 .icon-social {
   display: block;
-  /* height: 20px; */
-  /* width: 20px; */
   fill: inherit;
 }
-
-.footer-social {
-  margin-left: 70px;
-}
-
-.footer-social > .social-list {
-  margin: 0;
-}
-
-.footer-social > h3 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  margin-bottom: 20px;
-}
-
 .footer-social .icon-social {
   fill: #FFFFFF;
 }
@@ -186,9 +165,7 @@ a {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
-.footer-social a:hover,
-.footer-social a:focus {
+.footer-social a:hover, .footer-social a:focus {
   background-color: var(--link-active);
 }
 
@@ -971,6 +948,20 @@ a {
   color: var(--link-active);
 }
 
+.footer-social {
+  margin-left: 70px;
+}
+
+.footer-social > h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
 /* Subscription */
 .subscription {
   width: 100%;
@@ -1009,7 +1000,6 @@ a {
   padding-left: 16px;
   padding-right: 16px;
 }
-
 .field-subscription::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -1017,7 +1007,6 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .field-subscription::-moz-placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -1025,7 +1014,6 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .field-subscription:-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -1033,7 +1021,6 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .field-subscription::-ms-input-placeholder {
   font-weight: 400;
   font-size: 16px;
@@ -1041,7 +1028,6 @@ a {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .field-subscription::placeholder {
   font-weight: 400;
   font-size: 16px;
