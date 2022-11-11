@@ -2,7 +2,7 @@
 border-bottom: 1px solid var(--nav-line);
 }
 
-.container-head {
+.container__head {
 display: flex;
 align-items: center;
 }
@@ -12,7 +12,7 @@ align-items: center;
     align-items: center;
 }
 
-.nav-list {
+.navigation__list {
     display: flex;
 }
 
@@ -31,10 +31,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
 }
 
-.nav-list>.li-nav {
+.navigation__list>.navigation__li {
  margin-left: 50px;
 }
-.nav-list>.li-nav:first-child {
+.navigation__list>.navigation__li:first-child {
  margin-left: 0;
 }
 // ======== Current ========//

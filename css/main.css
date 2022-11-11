@@ -466,7 +466,7 @@ a {
   border-bottom: 1px solid var(--nav-line);
 }
 
-.container-head {
+.container__head {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,7 +485,7 @@ a {
           align-items: center;
 }
 
-.nav-list {
+.navigation__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -504,11 +504,11 @@ a {
   color: var(--link-active);
 }
 
-.nav-list > .li-nav {
+.navigation__list > .navigation__li {
   margin-left: 50px;
 }
 
-.nav-list > .li-nav:first-child {
+.navigation__list > .navigation__li:first-child {
   margin-left: 0;
 }
 
