@@ -628,7 +628,6 @@ a {
   width: 25%;
   margin-left: var(--space-card);
 }
-
 .feature-card:first-child {
   margin-left: 0;
 }
@@ -688,11 +687,10 @@ a {
 }
 
 .what-card {
-  margin-left: var(--space-card);
   width: 33.3333333333%;
   position: relative;
+  margin-left: var(--space-card);
 }
-
 .what-card:first-child {
   margin-left: 0;
   -webkit-box-align: center;
@@ -882,7 +880,6 @@ a {
   background-color: var(--bg-footer-color);
   padding: 60px 0px;
 }
-
 .footer > .container {
   display: -webkit-box;
   display: -ms-flexbox;

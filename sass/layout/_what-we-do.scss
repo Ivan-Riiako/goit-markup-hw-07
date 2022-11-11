@@ -16,17 +16,16 @@
 }
 
 .what-card {
-    margin-left: var(--space-card);
     width: calc(100%/3) ;
     position: relative;
 
-}
+    margin-left: var(--space-card);
 
-.what-card:first-child {
-    margin-left: 0;
-align-items: center;
+    &:first-child {
+        margin-left: 0;
+        align-items: center;
+    }
 }
-
 
 .img-what {
     width: 100%;
