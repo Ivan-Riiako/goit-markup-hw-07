@@ -24,8 +24,6 @@
 
 
 .link-client {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,14 +34,15 @@
     border-radius: 4px;
 
     fill: var(--icon-color);
-}
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-.link-client:hover,
-.link-client:focus {
-
+    &:hover,
+    &:focus {
     fill: var(--link-active);
     border: 1px solid var(--link-active);
+    }
 }
+
 
 .client-container {
     display: flex;
