@@ -57,13 +57,6 @@ color: var(--adress-contact-color);
         color: var(--link-active);
     }
 }
-
-
-
-
-
-
-
 // ===Social links=== //
 .footer-social {
     margin-left: 70px;
@@ -101,32 +94,31 @@ text-transform: uppercase;
 color: #FFFFFF;
  }
 
-
- .wraper-subscrip {
+.wraper-subscrip {
 display: flex;
 }
 
- .field-subscription {
-     width: 100%;
-     border: 1px solid rgba(255, 255, 255, 0.3);
-     background-color: #2F303A;
-     color: rgba(255, 255, 255, 0.6);
-     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-     border-radius: 4px;
-     outline: none;
+.field-subscription {
+width: 100%;
+border: 1px solid rgba(255, 255, 255, 0.3);
+background-color: #2F303A;
+color: rgba(255, 255, 255, 0.6);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+outline: none;
 
 
-     padding-top: 15px;
-     padding-bottom: 15px;
-     padding-left: 16px;
-     padding-right: 16px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 16px;
+padding-right: 16px;
 
     &::placeholder {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.25;
-            letter-spacing: 0.03em;
-            color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
         }
  }
 
