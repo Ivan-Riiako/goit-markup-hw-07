@@ -6,19 +6,18 @@
     letter-spacing: 0.03em;
     color: var(--logo-color);
     margin-right: 93px;
+
 }
 
 .logo__studio {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--logo-studio);
+
+    .logo:hover &,
+    .logo:focus & {
+        color: var(--link-active);
+    }
 }
-
-.logo:hover .logo__studio,
-.logo:focus .logo__studio {
-    color: var(--link-active);
-}
-
-
 
 .logo--footer {
     margin-bottom: 20px;
@@ -27,9 +26,13 @@
 .logo__studio--inverse {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--logo-studio-inverse);
+
+    .logo:hover &,
+    .logo:focus & {
+        color: var(--link-active);
+    }
 }
 
-.logo:hover .logo__studio--inverse,
-.logo:focus .logo__studio--inverse {
-    color: var(--link-active);
-}
+
+
+
