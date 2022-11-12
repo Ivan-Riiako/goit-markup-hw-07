@@ -1,24 +1,24 @@
 @import "./utils/_variables.scss";
 @import "./utils/_visually-hidden.scss";
-@import "./utils/placeholders";
+@import "./utils/mixin";
 
 @import "./base/_base.scss";
+@import "./base/container";
+@import "./base/section";
 
 @import "./components/_modal-button.scss";
 @import "./components/_social-links-list.scss";
 @import "./components/logo";
-@import "./components/backdrop";
-@import "./components/modal";
+
+
+@import "./components/portfolio";
+@import "./components/_hero.scss";
+@import "./components/_features.scss";
+@import "./components/what-we-do";
+@import "./components/_our-team.scss";
+@import "./components/_our-clients.scss";
 
 @import "./layout/_heder.scss";
-@import "./layout/_hero.scss";
-@import "./layout/_features.scss";
-@import "./layout/what-we-do";
-@import "./layout/_our-team.scss";
-@import "./layout/_our-clients.scss";
 @import "./layout/footer";
-
-@import "./pages/portfolio";
-
-@import "./themes/_themes.scss";
-@import "./vendors/_vendors.scss";
+@import "./layout/backdrop";
+@import "./layout/modal";
