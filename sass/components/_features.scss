@@ -1,5 +1,5 @@
 /*   ------------Our feature ------------- */
-.features-section {
+.section__features {
     padding-bottom: 0;
 }
 
@@ -7,7 +7,7 @@
     display: flex;
 }
 /* feature  card*/
-.feature-card {
+.feature__card {
     display: block;
     width: calc(100%/4);
 
@@ -18,7 +18,7 @@
     }
 }
 
-.bord-feature {
+.feature__card-wrapper {
     @include aligm( flex,center ,center );
     height: 120px;
 
@@ -28,7 +28,7 @@
     background-color: var(--bg-feature-color);
 }
 
-.feature-list-heading {
+.feature__card-heading {
     @include font-bold(14px, 1.14, 0.03em);
 
     text-transform: uppercase;
@@ -36,14 +36,11 @@
     
     margin: 0;
     margin-bottom: 10px;
-    
-    
 }
 
-.feature-list-description {
+.feature__card-description {
     @include font-normal(14px, 1.7, 0.03em);
     color: var(--feature-dsk);
     
     margin: 0px;
-
 }

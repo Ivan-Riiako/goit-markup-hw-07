@@ -1,17 +1,8 @@
-.what-heading {
-    @include font-bold(36px, 1.16, 0.03em);   
-    text-align: center;
-    color: var(--h-what-color);
-
-    margin: 0;
-    margin-bottom: 50px;
-}
-
-.what-list-other {
+ .our-work {
     display: flex;
 }
 
-.what-card {
+.our-work__card {
     width: calc(100%/3) ;
     position: relative;
 
@@ -23,12 +14,12 @@
     }
 }
 
-.img-what {
+.our-work__img {
     width: 100%;
     display: block;
 }
 
-.what-descriptions {
+.our-work__descriptions {
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -38,7 +29,7 @@
     padding-bottom: 27px;
     padding-top: 27px;
 
-@include font-bold(14px, 1.14, 0.03em);
+    @include font-bold(14px, 1.14, 0.03em);
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;

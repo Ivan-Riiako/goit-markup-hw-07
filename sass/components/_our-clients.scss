@@ -1,12 +1,4 @@
 /* Our Clients */
-
-.header-clients {
-    @include font-bold(36px, 1.16, 0.03em);
-    text-align: center;
-    
-    margin-bottom: 50px;
-}
-
 .container>.clients-list {
     @include aligm(flex, space-between, center);
     margin-left: auto;

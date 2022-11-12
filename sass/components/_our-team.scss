@@ -1,15 +1,6 @@
 /*-------------- OUR TEAM---------------*/
-
 .our-team {
 background-color: var(--bg-team-color);
-}
-
-.our-team-heading {
-    @include font-bold(36px, 1.16, 0.03em);
-text-align: center;
-color: var(--h-team-color);
-
-margin-bottom: 50px;
 }
 
 .our-team-list {
