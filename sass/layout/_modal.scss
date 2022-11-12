@@ -44,23 +44,16 @@ transition: transform 250ms linear;
 
 .form-header {
     display: block;
-
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    letter-spacing: 0.03em;
     margin-bottom: 12px;
+
+    @include font-bold(20px, 1.15, 0.03em);
+    text-align: center;
 }
 
 .label {
     display: block;
     margin-bottom: 4px;
-
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
+@include font-normal(12px, 1.16, 0.01em);
     color: #757575;
 }
 
@@ -123,10 +116,7 @@ transition: transform 250ms linear;
     padding-right: 16px;
 
     &::placeholder {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 1.16;
-        letter-spacing: 0.01em;
+        @include font-normal(12px, 1.16, 0.01em);
         color: rgba(117, 117, 117, 0.5);
     }
 }
@@ -143,13 +133,9 @@ transition: transform 250ms linear;
 
 .label-checkbox {
     display: flex;
-
     align-items: center;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;
 
+    @include font-normal(14px, 1.5, 0.03em);
     color: #757575;
 
     &::before {
@@ -178,10 +164,7 @@ transition: transform 250ms linear;
         border: 2px solid var(--link-active);
     }
     &>a {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.5;
-        letter-spacing: 0.03em;
+        @include font-normal(14px, 1.5, 0.03em);
         text-decoration-line: underline;
     
         color: #2196F3;
@@ -198,12 +181,9 @@ transition: transform 250ms linear;
     padding-bottom: 10px;
     padding-left: 52px;
     padding-right: 52px;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+    
+    @include font-bold(16px,1.87 ,0.06em);
     text-align: center;
-    letter-spacing: 0.06em;
     color: #FFFFFF;
 
     background-color: var(--button-color);

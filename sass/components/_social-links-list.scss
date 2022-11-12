@@ -15,9 +15,7 @@
 }
 
 .social-li>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include aligm(flex, center, center);
     height: 44px;
     width: 44px;
     border-radius: 50%;

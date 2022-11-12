@@ -51,7 +51,6 @@
   overflow: hidden;
 }
 
-@ec;
 h1,
 h2,
 h3,
@@ -208,8 +207,8 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--project-btn-text);
   cursor: pointer;
   background: var(--project-bg-btn);
@@ -405,10 +404,10 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  margin: 0;
-  margin-bottom: 10px;
   text-transform: uppercase;
   color: var(--feature-list-h);
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .feature-list-description {
@@ -424,8 +423,8 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--h-what-color);
   margin: 0;
   margin-bottom: 50px;
@@ -467,8 +466,8 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: rgba(47, 48, 58, 0.8);
@@ -483,8 +482,8 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--h-team-color);
   margin-bottom: 50px;
 }
@@ -538,8 +537,8 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--team-name-color);
   margin: 0 0 10px;
 }
@@ -548,8 +547,8 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--team-dsk-color);
   margin: 0;
 }
@@ -559,8 +558,8 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 50px;
 }
 
@@ -719,12 +718,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -819,7 +818,7 @@ a {
 .footer-social > h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -838,7 +837,7 @@ a {
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -914,8 +913,8 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   color: #FFFFFF;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -1005,12 +1004,12 @@ a {
 
 .form-header {
   display: block;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 12px;
+  text-align: center;
 }
 
 .label {
@@ -1183,8 +1182,8 @@ a {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   color: #FFFFFF;
   background-color: var(--button-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

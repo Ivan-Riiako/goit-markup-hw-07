@@ -19,9 +19,7 @@
 }
 
 .bord-feature {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include aligm( flex,center ,center );
     height: 120px;
 
     margin-bottom: 30px;
@@ -31,22 +29,21 @@
 }
 
 .feature-list-heading {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    margin: 0;
-    margin-bottom: 10px;
+    @include font-bold(14px, 1.14, 0.03em);
+
     text-transform: uppercase;
     color: var(--feature-list-h);
+    
+    margin: 0;
+    margin-bottom: 10px;
+    
+    
 }
 
 .feature-list-description {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    @include font-normal(14px, 1.7, 0.03em);
     color: var(--feature-dsk);
+    
     margin: 0px;
 
 }

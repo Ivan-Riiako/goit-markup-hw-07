@@ -17,10 +17,7 @@ align-items: center;
 }
 
 .navigation__element {
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+    @include font-medium(14px, 1.14, 0.02em);
 color: var(--nav-color);
 
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -56,8 +53,6 @@ position: relative;
     border-radius: 2px;
         }
 }
-
-
 /* --------------CONTACTS --------------*/
 .contacts {
     display: flex;
@@ -79,14 +74,9 @@ position: relative;
 }
 
 .contacts__contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-
+    @include aligm(flex, center, center);
+    
+    @include font-medium(14px, 1.14, 0.02em);
     text-decoration: none;
     color: var(--contacts-color);
     fill: var(--contacts-color);

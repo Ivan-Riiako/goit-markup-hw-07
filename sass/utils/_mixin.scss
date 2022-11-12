@@ -1,7 +1,24 @@
-@mixin aligm ( $dy, $jc, $ai ) {
-    display: $dy;
+@mixin aligm ($dp,$jc,$ai) {
+    display: $dp; 
     justify-content: $jc;
     align-items: $ai;
 }
 
-@ec
+@mixin font-bold( $fs, $lh, $ls){
+font-weight: 700;
+font-size: $fs;
+line-height: $lh;
+letter-spacing: $ls;
+}
+@mixin font-normal($fs, $lh, $ls) {
+    font-weight: 400;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+}
+@mixin font-medium($fs, $lh, $ls) {
+    font-weight: 500;
+    font-size: $fs;
+    line-height: $lh;
+    letter-spacing: $ls;
+}

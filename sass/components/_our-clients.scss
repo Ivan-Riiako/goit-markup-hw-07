@@ -1,18 +1,14 @@
 /* Our Clients */
 
 .header-clients {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    @include font-bold(36px, 1.16, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
+    
     margin-bottom: 50px;
 }
 
 .container>.clients-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include aligm(flex, space-between, center);
     margin-left: auto;
     margin-right: auto;
 }
@@ -24,9 +20,7 @@
 
 
 .link-client {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include aligm(flex, center, center);
     height: 92px;
     width: 170px;
 
@@ -45,9 +39,7 @@
 
 
 .client-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include aligm(flex, center, center);
     height: 60px;
     width: 106px;
 }
