@@ -18,7 +18,7 @@ transition: transform 250ms linear;
 }
 
 
-.close {
+.modal__close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -172,7 +172,7 @@ transition: transform 250ms linear;
 }
 
 
-.modal-submit {
+.modal__submit {
     display: block;
     margin-left: auto;
     margin-right: auto;

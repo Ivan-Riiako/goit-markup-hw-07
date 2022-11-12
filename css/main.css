@@ -561,6 +561,10 @@ a {
 .clients__card {
   display: block;
   width: 16.6666666667%;
+  margin-left: 30px;
+}
+.clients__card:first-child {
+  margin-left: 0;
 }
 
 .clients__link {
@@ -574,7 +578,6 @@ a {
       -ms-flex-align: center;
           align-items: center;
   height: 92px;
-  width: 170px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   fill: var(--icon-color);
@@ -724,7 +727,7 @@ a {
           align-items: baseline;
 }
 
-.footer-list {
+.footer-addres {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -737,20 +740,16 @@ a {
   min-width: fit-content;
 }
 
-.footer-addres {
-  padding-right: 25px;
-}
-
-.adress-list {
+.footer-addres__item {
   display: block;
   margin-bottom: 9px;
   height: 21px;
 }
-.adress-list:last-child {
+.footer-addres__item:last-child {
   margin-bottom: 0;
 }
 
-.adress-place {
+.footer-addres__place {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -760,11 +759,11 @@ a {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.adress-place:hover, .adress-place:focus {
+.footer-addres__place:hover, .footer-addres__place:focus {
   color: var(--link-active);
 }
 
-.adress {
+.footer-addres__contact {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -774,7 +773,7 @@ a {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.adress:focus, .adress:hover {
+.footer-addres__contact:focus, .footer-addres__contact:hover {
   color: var(--link-active);
 }
 
@@ -933,7 +932,7 @@ a {
           transform: translate(-50%, -50%) scale(1.15);
 }
 
-.close {
+.modal__close {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -955,7 +954,7 @@ a {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.close:focus, .close:hover {
+.modal__close:focus, .modal__close:hover {
   fill: var(--link-active);
 }
 
@@ -1128,7 +1127,7 @@ a {
   color: #2196F3;
 }
 
-.modal-submit {
+.modal__submit {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1151,6 +1150,6 @@ a {
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-submit:hover, .modal-submit:focus {
+.modal__submit:hover, .modal__submit:focus {
   background-color: var(--button-active-color);
 }/*# sourceMappingURL=main.css.map */
