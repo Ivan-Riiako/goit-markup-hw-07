@@ -1,0 +1,7 @@
+@mixin aligm ( $dy, $jc, $ai ) {
+    display: $dy;
+    justify-content: $jc;
+    align-items: $ai;
+}
+
+@ec
