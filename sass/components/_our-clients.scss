@@ -1,17 +1,16 @@
 /* Our Clients */
-.container>.clients-list {
+.clients {
     @include aligm(flex, space-between, center);
     margin-left: auto;
     margin-right: auto;
 }
 
-.client {
+.clients__card {
     display: block;
     width: calc(100%/6);
 }
 
-
-.link-client {
+.clients__link {
     @include aligm(flex, center, center);
     height: 92px;
     width: 170px;
@@ -29,13 +28,6 @@
     }
 }
 
-
-.client-container {
-    @include aligm(flex, center, center);
-    height: 60px;
-    width: 106px;
-}
-
-.icon-clien {
+.clients__icon {
     height: 60px;
 }
