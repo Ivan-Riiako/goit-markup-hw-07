@@ -1,12 +1,10 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
 
 @import "./utils/index";
 
-@import "./base/_base.scss";
-
-
-@import "./components/main";
+@import "./base/index";
 
 @import "./layout/index";
+
+@import "./components/main";
