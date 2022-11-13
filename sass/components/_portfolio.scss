@@ -12,21 +12,21 @@
 }
 
 .navigation-portfolio__button {
-width: auto;
-min-height: 38px;
-min-width: 73px;
-border-radius: 4px;
-border: var(--project-border-btn);
-padding: 6px 22px;
+    min-width: 73px;
 
-font-family: 'Roboto';
-font-style: normal;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;  
+
 @include font-medium(16px, 1.62, 0.03em);
 text-align: center;
 color: var(--project-btn-text);
 
+background-color: var(--project-bg-btn);
+border-radius: 4px;
+border: var(--project-border-btn);
 cursor: pointer;
-background: var(--project-bg-btn);
 
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
