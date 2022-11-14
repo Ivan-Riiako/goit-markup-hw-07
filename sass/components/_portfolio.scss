@@ -102,7 +102,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cub
     background-color: rgba(33, 150, 243, 0.9);
 
     .project-card__link-card:hover &,
-    .project-card__link-card:focus & {
+    .project-card__link-card:focus & 
+        {
+        bottom: 0;
         transform: translateY(0%);
         }
 }

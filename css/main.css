@@ -3664,6 +3664,7 @@ a {
   background-color: rgba(33, 150, 243, 0.9);
 }
 .project-card__link-card:hover .project-card__hover-transform, .project-card__link-card:focus .project-card__hover-transform {
+  bottom: 0;
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
 }
