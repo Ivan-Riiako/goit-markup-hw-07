@@ -3071,9 +3071,10 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
-  min-width: fit-content;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  width: 231px;
 }
 
 .footer-addres__item {
@@ -3113,7 +3114,7 @@ a {
 }
 
 .footer-social {
-  margin-left: 70px;
+  margin-left: 93px;
 }
 
 .footer-social__title {
@@ -3546,6 +3547,7 @@ a {
 
 .logo--footer {
   margin-bottom: 20px;
+  margin-right: 0;
 }
 
 .logo__studio--inverse {

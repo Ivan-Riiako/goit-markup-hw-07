@@ -10,15 +10,13 @@ padding: 60px 0px;
 .footer-addres {
 display: flex;
 flex-direction: column;
-min-width: fit-content;
-
+min-width:max-content;
+width: 231px;
 }
-
 
 .footer-addres__item {
 margin-bottom: 9px;
 height: 21px;
-
     &:last-child {
     margin-bottom: 0;
     }
@@ -51,7 +49,10 @@ color: var(--adress-contact-color);
 }
 // ===Social links=== //
 .footer-social {
-    margin-left: 70px;
+    // margin-left: 70px;
+    
+    margin-left: 93px;
+    
 }
 
 .footer-social__title {
