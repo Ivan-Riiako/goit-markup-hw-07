@@ -3641,7 +3641,7 @@ a {
 
 .project-card__hover-transform {
   position: absolute;
-  bottom: -0.1;
+  bottom: -0.1px;
   left: 0;
   width: 100%;
   height: 100%;
