@@ -1,5 +1,8 @@
-
-
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--bg-body-color)
+}
 
 h1,
 h2,
@@ -12,12 +15,6 @@ ul {
     margin: 0;
     padding: 0;
 }
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background: var(--bg-body-color)
-}
-
 
 .list {
     margin: 0;
