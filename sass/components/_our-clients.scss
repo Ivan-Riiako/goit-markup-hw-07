@@ -7,7 +7,7 @@
 
 .clients__card {
     
-width: calc((100% - 150px) / 6);
+width: calc((100% - (5*var(--space-card))) / 6);
     margin-left: 30px;
 
     &:first-child{

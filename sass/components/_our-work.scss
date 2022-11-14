@@ -3,7 +3,7 @@
 }
 
 .our-work__card {
-    width: calc((100% - 60px) / 3);
+    width: calc((100% - (2*var(--space-card))) / 3);
     position: relative;
 
     margin-left: var(--space-card);
