@@ -3742,7 +3742,7 @@ a {
 
 /* feature  card*/
 .feature__card {
-  width: calc((100% - 60px) / 3);
+  width: calc((100% - 90px) / 4);
   margin-left: var(--space-card);
 }
 .feature__card:first-child {
@@ -3792,7 +3792,7 @@ a {
 }
 
 .our-work__card {
-  width: 33.3333333333%;
+  width: calc((100% - 60px) / 3);
   position: relative;
   margin-left: var(--space-card);
 }
