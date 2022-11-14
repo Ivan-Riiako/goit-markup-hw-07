@@ -8,7 +8,7 @@
 }
 /* feature  card*/
 .feature__card {
-    width: calc(100%/4);
+width: calc((100% - 60px) / 3);
 
     margin-left: var(--space-card);
 
